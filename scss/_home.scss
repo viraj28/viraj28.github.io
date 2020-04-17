@@ -1,4 +1,4 @@
-.home {
+.home{
   height: 100%;
   padding-top: 40vh;
   overflow: hidden;
@@ -10,11 +10,11 @@
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url('../img/model-1.jpg') center top;
+    url(../img/tech-1.jpg) center ;
   background-size: cover;
 
   &__name {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: 2px solid set-text-color($primary-color);
@@ -23,5 +23,6 @@
       color: $secondary-color;
       font-weight: 700;
     }
+
   }
 }
